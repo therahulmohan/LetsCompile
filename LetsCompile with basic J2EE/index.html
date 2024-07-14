@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Lets Compile</title>
+    <link rel='stylesheet' type='text/css' href='/LetsCompile/css/styles.css'>
+    <script src='/LetsCompile/js/LanguageChange.js'></script>
+</head>
+
+<body>
+    <!-- Main conatiner starts here -->
+    <div id='main-container'>
+        <!-- Header starts here -->
+        <div id='header'>
+            <img src='/LetsCompile/images/logo.png' width:'15' height:'15' id='logo'>
+            <div id='heading'>LetsCompile</div>
+        </div> <!-- Header ends here -->
+        <!-- content section starts here -->
+        <form method='post' action='/LetsCompile/runCode'>
+            <div id='content-section'>
+                &nbsp;&nbsp;&nbsp;<label for='languages'>Choose a language</label>
+                <select id='languages' name='languages' onchange='langChange();'>
+                    <option value='C'>C</option>
+                    <option value='C++'>C++</option>
+                    <option value='Java'>Java</option>
+                    <option value='Python'>Python</option>
+                </select>
+            </div>
+            <div id='outer-panel'>
+                <!-- left panel starts here -->
+                <div id='left-panel'>
+                    Code here<br>
+                    <textarea id='codeArea' name='codeArea' rows='34' cols='130'>
+#include&lt;stdio.h&gt;
+
+int main () {
+printf("Hello World!");
+}
+</textarea>
+                </div> <!-- left panel ends here -->
+                <div id='right-panel'>
+                    <div id='input-area'>
+                        &nbsp &nbsp Input<br>
+                        <textarea id='input-data' name='inputData' rows='14' cols='61'></textarea>
+                    </div>
+                    <div id='output-area'>
+                        &nbsp &nbsp Output<br>
+                        <textarea id='output-data' name='outputData' rows='17' cols='61' readonly></textarea>
+                    </div>
+                </div><!-- right panel ends here -->
+                <br>
+                <div id='run-button-panel'>
+                    <center>
+                        <button type='submit' id='run-button'>Run</button>
+                    </center>
+                </div>
+            </div> <!-- content section ends here -->
+        </form>
+        <br>
+        <!-- footer starts here -->
+        <div id='footer'>
+            &copy; LetsCompile 2024
+        </div>
+        <!-- footer ends here -->
+    </div> <!-- Main container ends here -->
+</body>
+
+</html>

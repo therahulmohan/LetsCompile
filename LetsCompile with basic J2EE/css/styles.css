@@ -1,0 +1,74 @@
+#main-container {
+    height:auto;
+    border:1px solid black;
+}
+#header {
+    margin:5px;
+    height:auto;
+    border:1px solid black;
+}
+#heading {
+    margin-top:9px;
+    margin-bottom:9px;
+    font-size:20pt;
+}
+#logo {
+    float:left;
+}
+#content-section {
+    margin:5px; 
+    padding:5px; 
+    border: 1px solid black;
+}
+#outer-panel {
+    height:80vh;
+    margin:5px;
+}
+#left-panel {
+    height:75vh;
+    float:left;
+    margin:5px;
+    margin-top: 2px;
+    padding:5px;
+    border:1px solid white;
+}
+#right-panel {
+    height:75vh;
+    margin-left:925px;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+    border:1px solid white;
+}
+#input-area {
+    padding-bottom: 5px; 
+    border:1px solid white;
+}
+#input-data {
+    margin-left: 10px;
+}
+#output-area {
+    margin-top:10px ;
+    padding-bottom: 5px; 
+    border:1px solid white;
+}
+#output-data {
+    margin-left: 10px;
+}
+#run-button-panel {
+    height:auto;
+    margin-bottom: 5px;
+    padding-bottom: 5px; 
+    border:1px solid white;
+}
+#run-button {
+    font-size: large;
+}
+#footer {
+    height:auto;
+    margin:5px;
+    padding: 4px; 
+    text-align:center;
+    border:1px solid black;
+}
